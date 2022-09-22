@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -29,6 +31,19 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  final titles = ["React Native", "Flutter", "Darts"];
+
+  final subtitles = [
+    "Webinar for Course React Native",
+    "Webinar for Course Flutter",
+    "Webinar for Course Darts",
+  ];
+
+  final ImageLogo = [
+    "assets/RN.png",
+    "assets/Flutter.png",
+    "assets/dart.png",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
