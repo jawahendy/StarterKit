@@ -1,4 +1,4 @@
-// ignore_for_file: non_constant_identifier_names
+// ignore_for_file: non_constant_identifier_names, avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
 
@@ -47,14 +47,16 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const <Widget>[
-            Text(
-              'Welcome To Webinar Celerates',
-            ),
-          ],
+      body: Container(
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const <Widget>[
+              Text(
+                'Welcome To Webinar Celerates',
+              ),
+            ],
+          ),
         ),
       ),
     );
