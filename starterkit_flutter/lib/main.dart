@@ -102,7 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Title_Course(Title: "Course"),
             Expanded(
               child: SizedBox(
-                height: MediaQuery.of(context).size.height,
+                height: MediaQuery.of(context).size.height * 0.8,
                 child: ListView.builder(
                   itemCount: 3,
                   itemBuilder: ((context, index) {
